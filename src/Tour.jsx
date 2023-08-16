@@ -10,7 +10,7 @@ const Tour = ({ id, image, info, name, price, removeTour }) => {
       <div className="tour-info">
         <h5>{name}</h5>
         <p>
-          {readMore ? info : `${info.substring(0, 200)}...`}
+          {readMore ? info : `${info.substring(0, 200)}... `}
           <button
             type="button"
             className="info-btn"
@@ -19,6 +19,7 @@ const Tour = ({ id, image, info, name, price, removeTour }) => {
             {readMore ? "show less" : "show more"}
           </button>
         </p>
+
         <button
           type="button"
           className="btn btn-block delete-btn"
