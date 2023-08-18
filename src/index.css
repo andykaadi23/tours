@@ -334,14 +334,4 @@ main {
   color: var(--white);
 }
 
-@media screen and (min-width: 768px) {
-  .tours {
-    grid-template-columns: 1fr 1fr;
-    align-items: start;
-  }
-}
-@media screen and (min-width: 992px) {
-  .tours {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-}
+
